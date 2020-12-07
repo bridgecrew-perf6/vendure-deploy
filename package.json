@@ -6,7 +6,7 @@
   "scripts": {
     "run:server": "node ./src/index.js",
     "run:worker": "node ./src/index-worker.js",
-    "start": "concurrently yarn:run:*",
+    "start": "concurrently npm:run:*",
     "migration:generate": "node migration generate",
     "migration:run": "node migration run",
     "migration:revert": "node migration revert"
